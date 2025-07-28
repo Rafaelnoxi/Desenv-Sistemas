@@ -24,13 +24,32 @@
 #     print("Até ano que vem ")
 
 
-valor1 = int(input("Digite um numero: "))
-valor2 = int(input("Digite um numero: "))
+# valor1 = int(input("Digite um numero: "))
+# valor2 = int(input("Digite um numero: "))
 
-if (valor1 > valor2):
-    print("o maior valor é:", valor1)
-elif (valor1 < valor2):
-    print("o maior valor é:", valor2)
-elif (valor1 == valor2):
-    print("os valores são iguais")
+# if (valor1 > valor2):
+#     print("o maior valor é:", valor1)
+# elif (valor1 < valor2):
+#     print("o maior valor é:", valor2)
+# elif (valor1 == valor2):
+#     print("os valores são iguais")
     
+
+# soma = 0
+
+# for i in range(1, 21):  
+#     soma += i
+
+# print("A soma dos números de 1 a 20 é:", soma)
+
+soma = 0
+
+for _ in range(1000): 
+    entrada = input("Digite um número (ou qualquer outra coisa para sair): ")
+    if entrada.isdigit():
+        soma += int(entrada)
+    else:
+        break
+
+print("A soma total dos números digitados é:", soma)
+
