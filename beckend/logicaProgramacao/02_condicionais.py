@@ -43,13 +43,11 @@
 # print("A soma dos números de 1 a 20 é:", soma)
 
 soma = 0
+numero = int(input("Digite um numero (0 Para Sair): "))
 
-for _ in range(1000): 
-    entrada = input("Digite um número (ou qualquer outra coisa para sair): ")
-    if entrada.isdigit():
-        soma += int(entrada)
-    else:
-        break
-
+while numero != 0:
+    soma = soma + numero
+    numero = int(input("Digite um numero (0 Para Sair): "))
+    
 print("A soma total dos números digitados é:", soma)
 
