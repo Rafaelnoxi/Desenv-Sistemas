@@ -44,12 +44,60 @@
 
 # print("A soma dos números de 1 a 20 é:", soma)
 
-soma = 0
-numero = int(input("Digite um numero (0 Para Sair): "))
+# soma = 0
+# numero = int(input("Digite um numero (0 Para Sair): "))
 
-while numero != 0:
-    soma = soma + numero
-    numero = int(input("Digite um numero (0 Para Sair): "))
+# while numero != 0:
+#     soma = soma + numero
+#     numero = int(input("Digite um numero (0 Para Sair): "))
     
-print("A soma total dos números digitados é:", soma)
+# print("A soma total dos números digitados é:", soma)
 
+# soma2 = 0
+
+# while True:
+#     operacao = input("Digite 'D' para depositar ou 'S' para sacar: ").upper()
+
+#     if operacao not in ['D', 'S']:
+#         print("Operação inválida. Use apenas D ou S.")
+#         continue
+
+#     valor = float(input("Digite o valor (0 para sair): "))
+
+#     if valor == 0:
+#         break
+
+#     if operacao == 'D':
+#         soma2 += valor
+#     elif operacao == 'S':
+#         soma2 -= valor
+
+# print("Saldo final:", soma2)
+
+# senha_correta = int(input("Digite uma senha: "))
+# senha = int(input("Digite sua senha: "))
+
+# while senha != senha_correta:
+#     print("senha invalida")
+#     senha = int(input("Digite sua senha: "))
+
+# print("acesso liberado")
+
+senha = int(input("Digite uma senha?: "))
+nome = input("Digite Seu nome: ")
+senha_correta = int(input("digite sua senha: "))
+
+while senha != senha_correta:
+    print("Senha incorreta: ")
+    senha_correta = int(input("digite sua senha"))
+
+print("bem vindo!", nome)
+
+salario = float(input("Digite seu salario: "))
+
+salario_anual = salario * 12
+
+print("Seu salario anual é: ", salario_anual)
+
+if salario_anual > 100000:
+    print("rico")

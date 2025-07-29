@@ -15,4 +15,3 @@ print("Altura:", altura)
 print("Peso:", peso)
 print("Tem Habilitacao?", tem_habilitacao)
 print("Tem Titulo de eleitor?", tem_titulodeeleitor)
-
