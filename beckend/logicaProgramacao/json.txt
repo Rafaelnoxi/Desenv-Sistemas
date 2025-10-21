@@ -1,0 +1,10 @@
+
+Como um(a) desenvolvedor(a) de sistemas, explique por que o formato JSON é geralmente considerado mais robusto e prático do que um arquivo de texto simples (.txt) para salvar e trocar dados estruturados entre aplicações. Cite ao menos três diferenças técnicas fundamentais para justificar sua resposta.
+
+JSON é mais organizado (usa chave e valor).
+
+É mais fácil para os programas lerem.
+
+Suporta listas e dados dentro de dados.
+
+Por isso, é melhor que .txt pra trocar dados.

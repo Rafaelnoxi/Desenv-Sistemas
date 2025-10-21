@@ -1,36 +1,8 @@
-# nota = int(input("Digite sua nota: "))
+nota = int(input("Digite sua nota: "))
 
-# if (nota >= 80):
-#     print("Parabens")
-# elif (nota < 80 and nota >= 60):
-#     print("Pode Melhorar")
-# elif (nota < 60):
-#     print("Recuperação")
-
-# nota1 = int(input("Digite sua nota1: "))
-# nota2 = int(input("Digite sua nota2: "))
-# nota3 = int(input("Digite sua nota3: "))
-# nota4 = int(input("Digite sua nota4: "))
-
-# notafinal = (nota1 + nota2 + nota3 + nota4)/4
-
-# print("Sua nota foi:", notafinal)
-
-# if (notafinal >= 80):
-#     print("Exelente")
-# elif (notafinal < 80 and notafinal >= 60):
-#     print("Passou")
-# elif (notafinal < 60):
-#     print("Até ano que vem ")
-
-
-valor1 = int(input("Digite um numero: "))
-valor2 = int(input("Digite um numero: "))
-
-if (valor1 > valor2):
-    print("o maior valor é:", valor1)
-elif (valor1 < valor2):
-    print("o maior valor é:", valor2)
-elif (valor1 == valor2):
-    print("os valores são iguais")
-    
+if (nota >= 80):
+    print("Parabéns")
+elif (nota < 80 and nota >= 60):
+    print("Pode Melhorar")
+elif (nota < 60):
+    print("Recuperação")
